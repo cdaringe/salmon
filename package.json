@@ -17,5 +17,6 @@
     "eject": "react-scripts eject",
     "prepublish": "npm run build",
     "publish": "gh-pages -d build"
-  }
+  },
+  "homepage": "https://cdaringe.github.io/salmon/"
 }
