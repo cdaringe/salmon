@@ -15,8 +15,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "prepublish": "npm run build",
-    "publish": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "homepage": "https://cdaringe.github.io/salmon/"
 }
